@@ -15,20 +15,20 @@ public class GuessNB {
 		
 			
 	       
-	         System.out.println("«Î ‰»Îƒ„“™≤¬µƒ ˝◊÷");	
+	         System.out.println("ËØ∑ËæìÂÖ•‰Ω†Ë¶ÅÁåúÁöÑÊï∞Â≠ó");	
 	         for(;;){
         	int GuessNumber=scann.nextInt();
 			
 				
 			if(GuessNumber>AnserNumber){
-				System.out.println("¥Û¡À");
+				System.out.println("Â§ß‰∫Ü");
           i++;
 			}else if(GuessNumber<AnserNumber){
-			System.out.println("–°¡À");
+			System.out.println("Â∞è‰∫Ü");
 			i++;
 			
 		}else{if(GuessNumber==AnserNumber){
-			System.out.println("≤¬∂‘¡À"+"£¨ƒ„“ª∏ˆ≤¬¡À"+i+"¥Œ"); 
+			System.out.println("ÁåúÂØπ‰∫Ü"+"Ôºå‰Ω†‰∏Ä‰∏™Áåú‰∫Ü"+i+"Ê¨°"); 
 			
 		}
 			
@@ -41,4 +41,3 @@ public class GuessNB {
 		
 		
 	}
-}
