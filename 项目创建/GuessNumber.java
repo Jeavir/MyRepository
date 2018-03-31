@@ -7,9 +7,9 @@ public class GuessNB {
 		// TODO Auto-generated method stub
 
 		Scanner scann=new Scanner(System.in);
-		Scanner Mit=new Scanner(System.in);
+		Scanner  Mit=new Scanner(System.in);
 		Random radom=new Random();
-		int AnserNumber=radom.nextInt(1000)+1;
+		int AnserNumber=radom.nextInt(1000);
 		int i=1;
 		
 		
@@ -27,11 +27,11 @@ public class GuessNB {
 			System.out.println("小了");
 			i++;
 			
-		}else{if(GuessNumber==AnserNumber){
-			System.out.println("猜对了");
+		}else{if(GuessNumber==AnserNumber&&i<=n){
+			System.out.println("猜对了"+"，你一个猜了"+i+"次"); 
 			
 		}else{
-			System.out.println("算了算了，你那么笨就不要猜了");
+			System.out.println("你已经超出了限定猜测次数"+n+"次");
 		}
 			
 			
@@ -46,6 +46,3 @@ public class GuessNB {
 	}
 }
 		
-	
-
-
